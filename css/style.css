@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    bool-header: #ff6900;
+    bool-green: #008000;
+    bool-red: #ff0000;
+    bool-black: #1a1a1a;
+}
