@@ -63,27 +63,24 @@ a{
     padding-top: 120px;
 }
 
-.product{
-
-}
-
-.img{
-    position: relative;
-    width: 640px;
-    height: 924px;
-}
-
-.front-img{
-    background-image: url(../img/1.webp);
-
-}
-
-.front-img:hover{
-    background-image: url(../img/1b.webp);
-}
-
 .absolute{
     position: absolute;
+}
+
+.image-box {
+    position: relative;
+    float: left;
+}
+
+.image-box .image-hover {
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+.image-box:hover .image-hover {
+    display: block;
 }
 
 .heart{
