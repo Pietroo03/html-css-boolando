@@ -5,8 +5,51 @@
 }
 
 :root{
-    bool-header: #ff6900;
-    bool-green: #008000;
-    bool-red: #ff0000;
-    bool-black: #1a1a1a;
+    --bool-header: #ff6900;
+    --bool-green: #008000;
+    --bool-red: #ff0000;
+    --bool-black: #1a1a1a;
 }
+
+/* #region utilieties */
+.container-flex{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+/* #endregion utilities */
+
+/* #region header */
+header {
+    background-color: var(--bool-header);
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.head-nav{
+    padding: 1rem;
+    padding-bottom: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+#logo-bool{
+    width: 150px;
+}
+
+/* #endregion header */
+
