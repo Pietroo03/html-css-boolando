@@ -118,12 +118,12 @@ a{
 .discount{
     background-color: var(--bool-red);
     color: white;
+    margin-right: 5px;
 }
 
 .sost{
     background-color: var(--bool-green);
     color: white;
-    margin-left: 5px;
 }
 
 /* .details{
